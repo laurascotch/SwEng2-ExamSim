@@ -3,7 +3,7 @@ const app = express()
 const PORT = process.env.PORT || 3000
 const string_square = require('./string_square').string_square
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Usage:\n url/square?string=mystring calculates the square of mystring length'))
 
 app.get('/square', (req, res) => {
     if(req.query.string || req.query.string==''){
