@@ -1,0 +1,24 @@
+{
+  "name": "sweng2-examsim",
+  "version": "1.0.0",
+  "description": "Software Engineering 2 @ UniTN Exam Simulation - December, 5th 2018",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurascotch/SwEng2-ExamSim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurascotch/SwEng2-ExamSim/issues"
+  },
+  "homepage": "https://github.com/laurascotch/SwEng2-ExamSim#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  }
+}
