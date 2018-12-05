@@ -13,10 +13,12 @@ app.get('/square', (req, res) => {
         //console.log(strsquare);
         var result = {result: strsquare};
         res.json(result);
+        res.status(200);
     }else{
-        strsquare = -1
+        strsquare = string_square(mystring);
         var result = {result: strsquare};
         res.json(result);
+        res.status(200);
     }
 })
 

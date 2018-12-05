@@ -14,5 +14,5 @@ const getsquare = async url => {
 };
 
 var mystring = ''
-getsquare(url+"?string="+mystring);
-//getsquare(url);    
+//getsquare(url+"?string="+mystring);
+getsquare(url);    
