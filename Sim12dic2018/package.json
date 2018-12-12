@@ -1,0 +1,16 @@
+{
+  "name": "sim12dic2018",
+  "version": "1.0.0",
+  "description": "Software Engineering 2 @ UniTN Exam Simulation - December, 5th 2018",
+  "main": "api.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
