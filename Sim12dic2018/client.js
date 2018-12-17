@@ -15,7 +15,7 @@ const getarea = async url => {
 };
 
 var b = 2;
-var h = 0;
+var h = 5.2;
 var params = '?side1='+b+'&side2='+h;
 //var params = '?side1='+b;
 //var params = '';
