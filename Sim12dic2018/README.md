@@ -3,7 +3,8 @@ Software Engineering 2 @ UniTN Exam Simulation - December, 5th 2018
 
 ## Setup npm
 Type the following lines in terminal:
-```npm init
+```
+npm init
 npm install express --save
 npm install node-fetch --save
 ```
